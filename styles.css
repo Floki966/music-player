@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.card {
+  margin-top: 10mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  min-height: 150px;
+  background-color: rgb(231, 177, 29);
+}
+.text h2 {
+  font-size: 35px;
+  margin-top: 4mm;
+}
+.text h4 {
+  margin: 4mm;
+}
+
+.picture img {
+  width: 300px;
+  height: 300px;
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  margin: 40px 10px;
+  outline: none;
+  cursor: pointer;
+  background-color: Transparent;
+  border: none;
+}
+.fas {
+  font-size: 35px;
+}
